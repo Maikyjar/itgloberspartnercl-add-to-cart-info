@@ -3,5 +3,45 @@
 }
 
 .container__item {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #bb141b;
+  margin-bottom: 5px;
+}
+
+.button {
+  font-weight: bold;
+  background-color: #bb141b;
+  border-color: #bb141b;
+  font-size: 18px;
+  width: 100%;
+}
+
+.button:hover {
+  font-weight: bold;
+  background-color: transparent;
+  border-color: black;
+  font-size: 18px;
+}
+
+.container__buy {
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.link__buy {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: solid 2px red;
+}
+
+.link__home {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link__home:hover {
+  color: black;
 }
